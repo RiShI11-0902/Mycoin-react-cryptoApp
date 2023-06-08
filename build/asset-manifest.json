@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.cb49bbfa.css",
+    "main.js": "./static/js/main.903611b6.js",
+    "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
+    "static/media/pexels-alesia-kozik-6766087.jpg": "./static/media/pexels-alesia-kozik-6766087.b1df9cb3a2432fda3ac3.jpg",
+    "static/media/pexels-worldspectrum-844124.jpg": "./static/media/pexels-worldspectrum-844124.098fabe2489852cae510.jpg",
+    "index.html": "./index.html",
+    "static/media/index.cjs": "./static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.cb49bbfa.css.map": "./static/css/main.cb49bbfa.css.map",
+    "main.903611b6.js.map": "./static/js/main.903611b6.js.map",
+    "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb49bbfa.css",
+    "static/js/main.903611b6.js"
+  ]
+}

@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main{
+    background-image: url("assets/pexels-worldspectrum-844124.jpg");
+}
+
+@media  (max-width: 768px) {
+.main{
+    background-image: url("assets/pexels-alesia-kozik-6766087.jpg");
+}
+}
+    
+
+
