@@ -65,13 +65,13 @@ console.log();
   return (
     <>
       <div className="div flex flex-col  md:flex-row space-y-5 items-center mt-10 w-fit p-5 mx-auto justify-around">
-        <div className="md:ml-10 -ml-20">
+        <div className="md:ml-10 -ml-10">
           <input
             id="inputbox"
             onKeyUp={(event) => setSeacrh(event.target.value)}
             type="text"
             placeholder="Search"
-            className=" bg-white placeholder:text-slate-500 placeholder:relative placeholder:left-4 border-2 border-black lg:w-[38rem] md:w-[35rem] w-30
+            className=" bg-white placeholder:text-slate-500 placeholder:relative placeholder:left-4 border-2 border-black lg:w-[38rem] md:w-[35rem] w-60
 p-2  rounded-full -mt-16 indent-7 focus:placeholder:text-white"
           />
         </div>
@@ -96,7 +96,7 @@ p-2  rounded-full -mt-16 indent-7 focus:placeholder:text-white"
           </button>
         </div>
       </div>
-      <div className=" ml-4">
+      <div className=" ml-8">
         <div className="container mx-auto  mt-10 gap-4 grid grid-cols-1 text-xl md:grid-cols-3 lg:grid-cols-4">
           { loading ? <TbLoader3 className="animate-spin mx-auto  mt-20 text-5xl antialiased" /> :
         coins.filter(i=>i.name.toLowerCase().includes(search)).map((i) => {
