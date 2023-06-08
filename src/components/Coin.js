@@ -71,7 +71,8 @@ console.log();
             onKeyUp={(event) => setSeacrh(event.target.value)}
             type="text"
             placeholder="Search"
-            className=" bg-white placeholder:text-slate-500 placeholder:relative placeholder:left-4 border-2 border-black lg:w-[38rem] md:w-[35rem] w-15 p-2  rounded-full -mt-16 indent-7 focus:placeholder:text-white"
+            className=" bg-white placeholder:text-slate-500 placeholder:relative placeholder:left-4 border-2 border-black lg:w-[38rem] md:w-[35rem] w-30
+p-2  rounded-full -mt-16 indent-7 focus:placeholder:text-white"
           />
         </div>
         <div className="top flex items-center space-x-8 w-fit  mx-20">
