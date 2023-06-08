@@ -65,7 +65,7 @@ console.log();
   return (
     <>
       <div className="div flex flex-col  md:flex-row space-y-5 items-center mt-10 w-fit p-5 mx-auto justify-around">
-        <div className="md:ml-10 ml-0">
+        <div className="md:ml-10 -ml-10">
           <input
             id="inputbox"
             onKeyUp={(event) => setSeacrh(event.target.value)}
